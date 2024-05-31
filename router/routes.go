@@ -1,8 +1,11 @@
 package router
 
 import (
+	docs "github.com/Maysa87/Gopportunities.git/docs"
 	"github.com/Maysa87/Gopportunities.git/handler"
 	"github.com/gin-gonic/gin"
+	swaggerfiles "github.com/swaggo/files"
+	ginSwagger "github.com/swaggo/gin-swagger"
 )
 
 func initializeRoutes(router *gin.Engine) {
